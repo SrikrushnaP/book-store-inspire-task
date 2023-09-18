@@ -1,27 +1,41 @@
-# BookInspireTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
-## Development server
+## Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The application was built using Angular 16 and Bootstrap 5.
 
-## Code scaffolding
+This project was generated with [Angular CLI](https://angular.io/cli) version 16.0.0.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For UI we used mainly [Bootstrap 5](https://getbootstrap.com/) and few noraml CSS and JS
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Project Setup
+**Step 1:** Clone the project: 
+``` 
+https://github.com/SrikrushnaP/book-store-inspire-task.git
+```
 
-## Running unit tests
+**Step 2:** 
+```
+cd book-store-inspire-task
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Step 3:** 
+``` 
+ git pull origin master
+```
 
-## Running end-to-end tests
+**Step 3:** run the project
+``` 
+ gng serve
+```
+## Screenshot 1
+<p align="center">
+<img alt="Srikrushna-Book-store-task" width="950" src="https://github.com/SrikrushnaP/book-store-inspire-task/assets/16863254/8222d251-3e80-4dc2-bfe2-d03aeed06fab"/>
+</p>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Screenshot 1
+<p align="center">
+<img alt="Srikrushna-Book-store-task" width="950" src="https://github.com/SrikrushnaP/book-store-inspire-task/assets/16863254/4b121914-88de-46cc-a6ea-c1b945cfd2ac"/>
+</p>
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
