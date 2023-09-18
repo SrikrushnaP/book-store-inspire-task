@@ -1,0 +1,35 @@
+<div class="container">
+  <div
+    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">All Products</li>
+    </ol>
+    <div class="btn-toolbar mb-2 mb-md-0">
+      <button type="button" class="btn btn-outline-info" (click)="addProduct()">Add New Product</button>
+    </div>
+  </div>
+  <!-- Conent to be change / modify from start here -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Book Title</th>
+        <th scope="col">Published Date</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let book of booksList; let i = index">
+        <th scope="row">{{i+1}}</th>
+        <td>{{book.title}}</td>
+        <td>{{book.PublishDate}}</td>
+        <td>
+          <a (click)="updateProduct()" class="text-warning"><i class="bi bi-pencil-square"></i></a> &nbsp;
+          <a (click)="productDeleteConfirm(i)" class="text-danger"><i class="bi bi-x-square"></i></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- Conent to be change / modify ends here -->
+</div>
