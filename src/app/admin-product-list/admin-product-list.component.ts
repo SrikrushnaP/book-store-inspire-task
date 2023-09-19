@@ -22,16 +22,30 @@ export class AdminProductListComponent {
     })
   }
 
+  /**
+   * Delete product
+   * @param productIndex {number}
+   * It will delete the product from the frontend, we are not calling any service to update the data in backend
+   */
   productDeleteConfirm(productIndex:number){
     if(confirm("Do you want to delete the book!")){
     this.booksList.splice(productIndex,1);
     }
   }
 
+  /**
+   * Add product
+   * TODO: Later will add this
+   */
   addProduct(){
     alert("TODO: Added delete feature only. Later will add this")
   }
 
+
+  /**
+   * Update product
+   * TODO: Later will add this
+   */
   updateProduct(){
     alert("TODO: Added delete feature only. Later will add this")
   }

@@ -22,13 +22,23 @@ cd book-store-inspire-task
 
 **Step 3:** 
 ``` 
+npm install
+```
+
+**Step 4:** 
+``` 
  git pull origin master
 ```
 
-**Step 3:** run the project
+**Step 5:** run the project
 ``` 
  gng serve
 ```
+
+**Now you can ready to go**
+
+Open your browser and type: http://localhost:4200
+
 ## Screenshot 1
 <p align="center">
 <img alt="Srikrushna-Book-store-task" width="950" src="https://github.com/SrikrushnaP/book-store-inspire-task/assets/16863254/8222d251-3e80-4dc2-bfe2-d03aeed06fab"/>

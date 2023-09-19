@@ -1,6 +1,5 @@
 <div class="container">
-  <div
-    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
       <li class="breadcrumb-item active" aria-current="page">All Products</li>
@@ -17,7 +16,6 @@
   </div>
   <div class="row">
     <div class="col-lg-12 mb-3">
-      <!-- <h2 class="pb-2 border-bottom">Top Products</h2> -->
       <!-- START PRODUCT DISPLAY -->
       <div class="row mt-4">
         <div class="col col-md-6 col-12 mb-2" *ngFor="let book of booksList">
@@ -25,7 +23,8 @@
             <div class="row">
               <div class="col col-md-4">
                 <a>
-                  <img class="card-img-top" src="{{book.imageUrl}}" alt="{{book.title}}"  />
+                  <!-- Product image-->
+                  <img class="card-img-top" src="{{book.imageUrl}}" alt="{{book.title}}" />
                 </a>
               </div>
               <div class="col col-md-8">
@@ -47,11 +46,6 @@
                 </div>
               </div>
             </div>
-            <!-- Product image-->
-
-            <!-- book details-->
-
-
           </div>
         </div>
       </div>
